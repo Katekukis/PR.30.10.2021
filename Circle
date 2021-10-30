@@ -1,0 +1,28 @@
+import java.util.Date;
+
+    public class Circle extends Shape {
+        private Date lastMeowDate;
+
+        public Circle(int x, int y) {
+            super(x, y);
+        }
+
+
+        @Override
+        public String toString() {
+            return "Circle{" +
+                    "lastMeowDate=" + lastMeowDate +
+                    '}';
+        }
+
+        @Override
+        public String getType() {
+            return "This is Circle";
+        }
+        public String meow() {
+            lastMeowDate = new Date();
+            return "diametr";
+        }
+    }
+
+
