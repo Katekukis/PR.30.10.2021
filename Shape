@@ -7,10 +7,10 @@ public class Shape {
         this.y=y;
     }
     public double getArea(){
-        return 0.0;
+        return x;
     }
     public double getPerimeter(){
-        return 0.0;
+        return y;
     }
     @Override
     public String toString() {
@@ -24,3 +24,4 @@ public class Shape {
         return "Unknown";
     }
 }
+
